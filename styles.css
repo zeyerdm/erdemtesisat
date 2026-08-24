@@ -351,6 +351,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     display: flex;
     justify-content: center;
+    transform: translateY(-60px);
 }
 
 .quick-contact-card {
@@ -864,7 +865,7 @@ h1, h2, h3, h4, h5, h6 {
         justify-content: center;
     }
     
-    .hero-image-box { margin-top: 40px; }
+    .hero-image-box { margin-top: 40px; transform: translateY(0); }
     
     .why-us-image { width: 100%; margin-bottom: 40px; }
     .image-grid { justify-content: center; }
