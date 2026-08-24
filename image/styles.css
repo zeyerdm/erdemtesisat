@@ -917,20 +917,11 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--light-gray);
 }
 
-.products-marquee-content {
-    display: flex;
-    gap: 30px;
-    padding-left: 30px;
-    animation: marquee 25s linear infinite;
-    align-items: stretch;
-    min-width: 200%;
-}
-.products-marquee-content:hover {
-    animation-play-state: paused;
-}
-.products-marquee-content .product-item {
-    min-width: 220px;
-    flex-shrink: 0;
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
 }
 
 .product-item {
