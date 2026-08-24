@@ -596,12 +596,12 @@ h1, h2, h3, h4, h5, h6 {
 .img-large {
     width: 60%;
     height: 450px;
-    background-image: url('why_us_1.png?v=2');
+    background-image: url('image/why_us_1.png?v=2');
 }
 .img-small {
     width: 40%;
     height: 300px;
-    background-image: url('why_us_2.png?v=2');
+    background-image: url('image/why_us_2.png?v=2');
     margin-top: 50px;
 }
 
